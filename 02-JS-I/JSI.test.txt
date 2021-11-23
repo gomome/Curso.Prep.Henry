@@ -1,0 +1,53 @@
+Variables
+
+En programación, al igual que en álgebra, usamos variables (como precio1) para mantener valores.
+
+En programación, al igual que en álgebra, usamos variables en expresiones (total = precio1 + precio2).
+
+A partir del ejemplo anterior, puede calcular que el total es 11.
+
+
+
+Instrumentos de cuerda
+
+Las "cuerdas" son bloques de texto, siempre se definirán entre comillas, ya sea simple o doble. Cualquier texto entre comillas es una cadena o string.
+
+var  nombrePerro  =  'firulais' ;
+
+
+Funciones (argumentos, return)
+
+Una definición de función (también denominada declaración de función o expresión de función) consta de la palabra clave function, seguida de:
+
+El nombre de la función.
+Una lista de parámetros de la función, entre paréntesis y separados por comas.
+Las declaraciones de JavaScript que definen la función, encerradas entre llaves, { ... }.
+Por ejemplo, el siguiente código define una función simple llamada square ("cuadrado"):
+
+function square(number) {
+  return number * number;
+}
+Copy to Clipboard
+La función square toma un parámetro, llamado number. La función consta de una declaración que dice devuelva el parámetro de la función (es decir, number) multiplicado por sí mismo. La instrucción return especifica el valor devuelto por la función:
+
+return number * number;
+
+
+Declaraciones if
+
+Ejecuta una sentencia si una condición específicada es evaluada como verdadera. Si la condición es evaluada como falsa, otra sentencia puede ser ejecutada.
+
+if (condición) sentencia1 [else sentencia2]
+
+condición
+Una expresión que puede ser evaluada como verdadera o falsa.
+sentencia1
+Sentencia que se ejecutará si condición es evaluada como verdadera. Puede ser cualquier sentencia, incluyendo otras sentenccias if anidadas. Para ejecutar múltiples sentencias, use una sentencia block ({ ... }) para agruparlas.
+sentencia2
+Sentencia que se ejecutará si condición se evalúa como falsa, y exista una cláusula else. Puede ser cualquier sentencia, incluyendo sentencias block y otras sentencias if anidadas
+
+
+Valores booleanos ( true, false)
+
+El Boolean objeto es un contenedor de objetos para un valor booleano.
+El valor pasado como primer parámetro se convierte en un valor booleano, si es necesario. Si se omite el valor o se 0, -0, null, false, NaN, undefined, o la cadena vacía ( ""), el objeto tiene un valor inicial de false. Todos los demás valores, incluido cualquier objeto, una matriz vacía ( []) o la cadena " false", crean un objeto con un valor inicial de true.
