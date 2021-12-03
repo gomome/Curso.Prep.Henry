@@ -1,0 +1,41 @@
+ Bucle FOR
+
+Crea un bucle que consiste en tres expresiones opcionales, encerradas en paréntesis y separadas por puntos
+ y comas, seguidas de una sentencia ejecutada en un bucle.
+El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces. De entre todos
+ los bucles, el FOR se suele utilizar cuando sabemos seguro el número de veces que queremos que se ejecute.
+
+
+ El operador AND && realiza lo siguiente:
+
+
+El operador AND && realiza lo siguiente:
+
+Evalúa los operandos de izquierda a derecha.
+Para cada operando, los convierte a un booleano. Si el resultado es false, se detiene y retorna el valor 
+original de dicho operando.
+Si todos los operandos han sido evaluados (todos fueron valores verdaderos), retorna el último operando.
+En otras palabras, AND retorna el primer valor falso o el último valor si ninguno fue encontrado.
+
+Las reglas anteriores son similares a las de OR. La diferencia es que AND retorna el primer valor falso 
+mientras que OR retorna el primer valor verdadero.
+
+
+El operador OR || realiza lo siguiente:
+
+Evalúa los operandos de izquierda a derecha.
+Para cada operando, convierte el valor a booleano. Si el resultado es true, se detiene y retorna el valor 
+original de ese operando.
+Si todos los operandos han sido evaluados (todos eran false), retorna el ultimo operando.
+Un valor es retornado en su forma original, sin la conversión.
+
+En otras palabras, una cadena de OR "||" devuelve el primer valor verdadero o el último si ningún verdadero
+ es encontrado.
+
+
+ El operador booleano NOT se representa con un signo de exclamación !.
+
+El operador acepta un solo argumento y realiza lo siguiente:
+
+Convierte el operando al tipo booleano: true/false.
+Retorna el valor contrario.
